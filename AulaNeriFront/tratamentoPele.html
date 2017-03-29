@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="image/favicon.png">
+
+  <title>Carousel Template for Bootstrap</title>
+
+  <!-- Bootstrap core CSS -->
+''+
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/carousel.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Farsan|Griffy" rel="stylesheet">
+<link href="css/font-awesome/font-awesome.min.css" type="text/css"rel="stylesheet">
+</head>
+<!-- NAVBAR
+================================================== -->
+<body>
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+
+  <div class="container">
+    <div class="row row.navbar-nav">
+      <div class="col-xs-6 col-sm-2">
+        <img src="image/simbolo.jpg" style="width:100%">
+      </div>
+
+      <!-- nav-header -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <div class="navbar-brand">
+        <h5.subTitle class="subTitle">All4U</h5>
+        </div>
+
+
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-3 col-sm-6">
+
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav navbar-right">
+
+              <li class="active"><a href="index.html">Pagina Inicial</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="contato.html">Contato</a></li>
+
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Saiba mais <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-header"> Faça seu cadastro </li>
+                  <li><a href="cadastro.html">Cadastro</a></li>
+                  <li><a href="produtos.html">Produtos</a></li>
+                  <li><a href="admin.html">Administrador</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li class="dropdown-header"> Salões conveniados </li>
+                  <li><a href="saloes.html">Salões de beleza</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Carousel
+  ================================================== -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img class="first-slide" src="image/forest.jpg" alt="voce">
+        <div class="container">
+        <div class="carousel-caption">
+          <h1>Aqui você encontra um espaço somente seu.</h1>
+          <p>Pode achar a melhor forma de tratar seus cabelos, dicas para maquiagens.</p>
+          <p><a class="btn btn-lg btn-primary btn-responsive btn-responsive" href="cadastro.html" role="button">Faça seu cadastro</a></p>
+        </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <img class="second-slide" src="image/mulher-feliz.jpg" alt="mulher">
+        <div class="container">
+        <div class="carousel-caption">
+
+          <p><a class="btn btn-lg btn-primary btn-responsive btn-responsive" href="dicasMaquiagem.html" role="button">Dicas de maquiagem</a></p>
+        </div>
+        </div>
+      </div>
+
+      <div class="item">
+        <img class="third-slide" src="image/frutas-vermelhas.jpg" alt="saude">
+        <div class="container">
+        <div class="carousel-caption">
+          <p><a class="btn btn-lg btn-primary btn-responsive btn-responsive" href="alimentacaoSaudavel.html" role="button">Dicas de saúde</a></p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div><!-- /.carousel -->
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+
+        <h2> Idade da Pele </h2>
+        <strong>Tratamento de Pele (18 a 30 anos)</strong>
+        <p>
+          Nesse caso a melhor solução para mulher é prevenir a pele contra as consequências do tempo. É recomendável usar filtro solar e retirar toda a maquiagem antes de dormir com produtos específicos para o rosto. Além disso, limpe a pele com sabonete próprio para esse uso, esfolie a pele semanalmente e eventualmente visite uma esteticista para cuidados mais profundos.
+        </p>
+
+        <strong>Tratamento de Pele (30 a 50 anos)</strong>
+        <p>
+          Após os 35 anos a pele fica mais sensível, seca e perde elasticidade. Começam a surgir manchas causadas pelo sol, rugas e pequenas linhas de expressão. Diariamente lave o rosto e limpe com produto específico sem esquecer do filtro solar. Também é importante começar a usar um creme antirrugas pela manhã e noite.
+        </p>
+        <div class="imagePele col-md-10 col-md-offset-3 " style="padding-top:10px;padding-bottom: 20px">
+          <img  ​ class="img-responsive" src="http://dailyscursos.com/site/wp-content/uploads/2013/06/estetica.png" alt="Generic placeholder image" width="440" height="240">
+        </div>
+
+        <strong>Tratamento de Pele (50 anos ou mais)</strong>
+
+        <p>
+          A renovação celular reduz bastante, assim como a elasticidade e a hidratação da pele. Beba muita água para manter a pele mais hidratada. Lave o rosto com um produto específico para limpar a pele, hidrate e utilize o filtro solar. Escolha um creme firmador para ser usado antes de dormir. Consulte um dermatologista para saber mais informações sobre tratamentos específicos para a pele nessa idade.      </p>
+          <p>
+
+            <strong>Agora veja os alimentos indicados para determinados problemas:</strong>
+
+            <p>
+              Acne: evite o excesso de alimentos ricos em gordura saturada (carne bovina, suína, carboidratos, chocolates etc.) e prefira uma dieta rica em fibras, vegetais crus, frutas, leite e derivados magros, verduras e legumes.
+            </p>
+
+            <p>
+              Envelhecimento precoce: opte por uma alimentação rica em zinco, vitamina A, E, e C
+            </p>
+
+            <p>
+              Pele seca: consuma muita água, nozes, zinco, vitaminas A, C e complexo B. Frutas e verduras para a pele.
+            </p>
+
+            <h2>Tipos de Tratamentos de Pele</h2>
+            <p>
+              O mundo da estética oferece diversos tratamentos de pele, para as mais diferentes finalidades. Mas é importante lembrar que todo e qualquer tipo de procedimento precisa ter o acompanhamento médico e deve ser feito em clínicas confiáveis. Veja os mais procurados:
+            </p>
+
+            <p>
+              <h3><strong>Peeling</strong></h3>
+            </p>
+            O peeling é um tratamento utilizado para várias finalidades: combate ao envelhecimento, remoção de manchas, marcas, cicatrizes de acne e irregularidades da pele. Os peelings químicos provocam o desprendimento de camadas superficiais da pele por meio de algumas substâncias, eliminando as células mortas e dando lugar a uma nova pele livre de imperfeições. O peeling também é utilizado como um dos tratamentos para estrias.
+            <p>
+
+              Existem três tipos de Peeling:
+              <p><strong>»Superficial:</strong>
+                tem como função eliminar irregularidades apenas na superfície da pele, agem por uma esfoliação da camada córnea, a camada superficial da epiderme composta por células mortas.
+              </p>
+              <p>
+                <strong>» Médio:</strong>
+                atua na camada chamada derme, é uma aplicação um pouco mais profunda que age com maior intensidade, e permite obter o aumento da quantidade de elastina e de colágeno cutâneo. Persiste sobre a pele por mais tempo do que os peelings superficiais.
+              </p>
+              <p>
+                <strong>» Profundo:</strong>
+                atinge as camadas mais profundas da derme, é mais agressivo e destinado à graves lesões e à peles muito envelhecidas. Permite resultados muito satisfatórios; porém, é o tipo peeling que se exige mais cautela, pois seu processo é complexo, delicado e sua recuperação mais longa.
+              </p>
+              <p>
+                <h3><strong>Botox</strong></h3>
+                <p>
+                  O famoso botox bloqueia a liberação de acetilcolina, um neurotransmissor importantíssimo do sistema nervoso, através da toxina "botulínica". Isso faz com que as contrações dos músculos faciais sejam controladas e diminuídas. O resultado é o desaparecimento e suavização de rugas e marcas de expressão durante um determinado período. As aplicações devem ser feitas de três a seis meses, dependendo da dose aplicada e das condições do paciente.
+                </p>
+                <p>
+                  O tratamento é considerado seguro quando se usa a dose adequada. Normalmente, a aplicação consiste em 4 a 5 agulhadas na região desejada.
+                  Importante: O botox não é paralisa os músculos.
+                </p>
+
+                <hr class="divider">
+
+
+              </div>
+            </div>
+          </div><!-- /.container -->
+
+          <hr class="featurette-divider">
+
+          <!-- /END THE FEATURETTES -->
+
+          <!-- FOOTER -->
+
+          <footer>
+            <p class="pull-right"><a href="#">Back to top</a></p>
+            <p class="pull-lef">© 2016 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+            <a href="https://www.facebook.com"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+            <a href="https://www.twitter.com"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+
+          </footer>
+
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+
+      </body>
+      </html>
