@@ -14,14 +14,22 @@
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/carousel.css" rel="stylesheet">
+  <link href="css/styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Farsan|Griffy" rel="stylesheet">
+  <link href="css/font-awesome/font-awesome.min.css" type="text/css"rel="stylesheet">
 </head>
 <!-- NAVBAR
 ================================================== -->
 <body>
-  <div class="navbar-fluid">
-    <div class="container">
-      <nav class="navbar navbar-light bg-faded"  style="background-color: rgba(190,190,190,0.23)">
+  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
 
+    <div class="container">
+      <div class="row row.navbar-nav">
+        <div class="col-xs-6 col-sm-2">
+          <img src="image/simbolo.jpg" style="width:100%">
+        </div>
+
+        <!-- nav-header -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span>
@@ -30,139 +38,148 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">MakeUP</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="index.html">Pagina Inicial</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="contato.html">Contato</a></li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Saiba mais <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="cadastro.html">Cadastro</a></li>
-                <li><a href="produtos.html">Produtos</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="saloes.html">Salões de beleza</a></li>
+
+        <div class="navbar-brand">
+          <h5.subTitle class="subTitle">All4U</h5>
+          </div>
+
+
+          <div class="clearfix visible-xs-block"></div>
+          <div class="col-xs-3 col-sm-6">
+
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav navbar-right">
+
+                <li class="active"><a href="index.html">Pagina Inicial</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Saiba mais <span class="caret"></span></a>
+                  <ul class="dropdown-menu">
+                    <li class="dropdown-header"> Faça seu cadastro </li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="admin.html">Administrador</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li class="dropdown-header"> Salões conveniados </li>
+                    <li><a href="saloes.html">Salões de beleza</a></li>
+                  </ul>
+                </li>
               </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-  </div>
-</div>
-
-
-<!-- Carousel
-================================================== -->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img class="first-slide" src="image/forest.jpg" alt="voce">
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Aqui você encontra um espaço somente seu.</h1>
-          <p>Pode achar a melhor forma de tratar seus cabelos, dicas para maquiagens.</p>
-          <p><a class="btn btn-lg btn-primary" href="cadastro.html" role="button">Faça seu cadastro</a></p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="item">
-      <img class="second-slide" src="image/mulher-feliz.jpg" alt="mulher">
-      <div class="container">
-        <div class="carousel-caption">
 
-          <p><a class="btn btn-lg btn-primary" href="dicasMaquiagem" role="button">Dicas de maquiagem</a></p>
+
+  <!-- Carousel
+  ================================================== -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img class="first-slide" src="image/forest.jpg" alt="voce">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Aqui você encontra um espaço somente seu.</h1>
+            <p>Pode achar a melhor forma de tratar seus cabelos, dicas para maquiagens.</p>
+            <p><a class="btn btn-lg btn-primary btn-responsive" href="cadastro.html" role="button">Faça seu cadastro</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img class="second-slide" src="image/mulher-feliz.jpg" alt="mulher">
+        <div class="container">
+          <div class="carousel-caption">
+
+            <p><a class="btn btn-lg btn-primary btn-responsive" href="dicasMaquiagem" role="button">Dicas de maquiagem</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="item">
+        <img class="third-slide" src="image/frutas-vermelhas.jpg" alt="saude">
+        <div class="container">
+          <div class="carousel-caption">
+            <p><a class="btn btn-lg btn-primary btn-responsive" href="alimentacaoSaudavel.html" role="button">Dicas de saúde</a></p>
+          </div>
         </div>
       </div>
     </div>
-    <div class="item">
-      <img class="third-slide" src="image/frutas-vermelhas.jpg" alt="saude">
-      <div class="container">
-        <div class="carousel-caption">
-          <p><a class="btn btn-lg btn-primary" href="alimentacaoSaudavel.html" role="button">Dicas de saúde</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div><!-- /.carousel -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div><!-- /.carousel -->
 
 
-<!-- Marketing messaging and featurettes
-================================================== -->
-<!-- Wrap the rest of the page in another container to center all the content. -->
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
 
-<div class="container marketing">
+  <div class="container marketing">
 
-  <!-- Three columns of text below the carousel -->
-  <div class="row">
-    <div class="col-md-8 col-md-offset-2">
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
 
-      <h2> O que é massagem modeladora </h2>
-
-      <p>
-        A massagem modeladora é uma massagem feita com movimentos mais fortes e profundos, com o intuito de atingir camadas mais profundas da pele. A atribuição de que ela quebra gorduras é controversa, já que muitos médicos afirmam que é impossível quebrar a gordura apenas com o movimento das mãos. Mesmo assim, a massagem atua também na circulação, melhorando o metabolismo da região. Dessa forma, ela acaba sendo eficiente contra a celulite, mas apenas nos graus leve e moderada. Podem ser usados acessórios para aumentar a intensidade da massagem como: rolos com pequenas ventosas, bolinhas com texturas, luvas com texturas, entre outros.      </p>
-
-        <span>Outros nomes</span>
-        <p>
-          Massagem power, massagem turbinada, lipoescultura com as mãos, massagem redutora.
-        </p>
-
-        <div class="imageMassagem col-md-8 col-md-offset-3 " style="padding-top:10px;padding-bottom: 20px">
-          <img  src="http://www.esteticanatv.com.br/wp-content/uploads/2015/04/modeladora.jpg" alt="Generic placeholder image" width="440" height="240">
-          <caption>Massagem modeladora melhora o metabolismo local, mas não há garantias de que quebre mesmo a gordura</caption>
-
-        </div>
-
-        <strong>Indicações massagem modeladora</strong>
+        <h2> O que é massagem modeladora </h2>
 
         <p>
-          As principais finalidades da massagem modeladora são ativar o metabolismo local, aumentar a circulação sanguínea e estimular respostas neuromusculares, o que dá a impressão de estar com o corpo mais rígido logo após o procedimento. Esse efeito também ajuda a reduzir a celulite no local, apenas se ela for leve ou moderada. Porém, não se pode dizer que ela é capaz de quebrar gorduras, já que é impossível fazer isso com as mãos. É mais comum que a massagem acabe sendo feita com muita força e prejudique as fibras que sustentam a gordura, causando flacidez em longo prazo.        <p>
+          A massagem modeladora é uma massagem feita com movimentos mais fortes e profundos, com o intuito de atingir camadas mais profundas da pele. A atribuição de que ela quebra gorduras é controversa, já que muitos médicos afirmam que é impossível quebrar a gordura apenas com o movimento das mãos. Mesmo assim, a massagem atua também na circulação, melhorando o metabolismo da região. Dessa forma, ela acaba sendo eficiente contra a celulite, mas apenas nos graus leve e moderada. Podem ser usados acessórios para aumentar a intensidade da massagem como: rolos com pequenas ventosas, bolinhas com texturas, luvas com texturas, entre outros.      </p>
 
-            <strong>Como é feita a massagem modeladora:</strong>
+          <span>Outros nomes</span>
+          <p>
+            Massagem power, massagem turbinada, lipoescultura com as mãos, massagem redutora.
+          </p>
 
-            <p>
-              A massagem modeladora tem movimentos mais vigorosos que a drenagem linfática, executados de forma rápida e firme. Utiliza movimentos como deslizamento, amassamento, pinçamento e percussão. Geralmente ela é restrita a áreas com grande acúmulo de gordura, como: abdômen, quadris, culote, glúteos, coxas e às vezes nos braços.            </p>
+          <div class="imageMassagem col-md-8 col-md-offset-3 " style="padding-top:10px;padding-bottom: 20px">
+            <img  src="http://www.esteticanatv.com.br/wp-content/uploads/2015/04/modeladora.jpg" alt="Generic placeholder image" width="440" height="240">
+            <caption>Massagem modeladora melhora o metabolismo local, mas não há garantias de que quebre mesmo a gordura</caption>
+
+          </div>
+
+          <strong>Indicações massagem modeladora</strong>
+
+          <p>
+            As principais finalidades da massagem modeladora são ativar o metabolismo local, aumentar a circulação sanguínea e estimular respostas neuromusculares, o que dá a impressão de estar com o corpo mais rígido logo após o procedimento. Esse efeito também ajuda a reduzir a celulite no local, apenas se ela for leve ou moderada. Porém, não se pode dizer que ela é capaz de quebrar gorduras, já que é impossível fazer isso com as mãos. É mais comum que a massagem acabe sendo feita com muita força e prejudique as fibras que sustentam a gordura, causando flacidez em longo prazo.        <p>
+
+              <strong>Como é feita a massagem modeladora:</strong>
 
               <p>
-                Pode haver dor, mas não deve ser algo excessivo. Não deve haver hematomas nas regiões em que a massagem for feita, isso indica que o procedimento foi executado de forma errada, com muita pressão na região. Além disso, as marcas roxas significam má oxigenação na área, algo que vai contra os princípios da técnica.
-
-              </p>
-
-
-
-              <h2>Sessões</h2>
-              <p>
-                A massagem modeladora deve ser feita uma ou duas vezes por semana, e normalmente o tratamento deve ser contínuo, para ter a manutenção dos resultados. Mas em pessoas com alimentação balanceada e atividade física constante indica-se após o tratamento uma sessão a cada 15, 20 dias após a obtenção do resultado esperado. Cada sessão dura em média de 30 a 40 minutos, e pode haver um intervalo de 48 a 72 horas entre cada uma delas, de acordo com a avaliação do profissional.
-
-                <h3>Profissionais que podem fazer</h3>
-              </p>
-              É importantíssimo que a massagem modeladora seja feita por profissional capacitado, geralmente fisioterapeuta dermato-funcional ou esteticista.              <p>
-
-
-                <h3>Cuidados antes massagem modeladora </h3>
-
+                A massagem modeladora tem movimentos mais vigorosos que a drenagem linfática, executados de forma rápida e firme. Utiliza movimentos como deslizamento, amassamento, pinçamento e percussão. Geralmente ela é restrita a áreas com grande acúmulo de gordura, como: abdômen, quadris, culote, glúteos, coxas e às vezes nos braços.            </p>
 
                 <p>
-                  Como geralmente a massagem é realizada com cosméticos termogênicos (que aquecem e estimulam o metabolismo local), o ideal é que seja feita uma esfoliação corporal uma vez por semana, para que se consiga uma melhor penetração dos princípios ativos que estes cosméticos contêm.                </p>
-                  <p>
-                    Se a intenção for realizar a massagem no abdômen, o ideal é não comer antes da sessão, pois os movimentos vigorosos podem provocar refluxo ou mesmo vômito durante a massagem. Alimentação leve com jejum de uma hora e meia é o suficiente.
+                  Pode haver dor, mas não deve ser algo excessivo. Não deve haver hematomas nas regiões em que a massagem for feita, isso indica que o procedimento foi executado de forma errada, com muita pressão na região. Além disso, as marcas roxas significam má oxigenação na área, algo que vai contra os princípios da técnica.
+
+                </p>
+
+
+
+                <h2>Sessões</h2>
+                <p>
+                  A massagem modeladora deve ser feita uma ou duas vezes por semana, e normalmente o tratamento deve ser contínuo, para ter a manutenção dos resultados. Mas em pessoas com alimentação balanceada e atividade física constante indica-se após o tratamento uma sessão a cada 15, 20 dias após a obtenção do resultado esperado. Cada sessão dura em média de 30 a 40 minutos, e pode haver um intervalo de 48 a 72 horas entre cada uma delas, de acordo com a avaliação do profissional.
+
+                  <h3>Profissionais que podem fazer</h3>
+                </p>
+                É importantíssimo que a massagem modeladora seja feita por profissional capacitado, geralmente fisioterapeuta dermato-funcional ou esteticista.              <p>
+
+
+                  <h3>Cuidados antes massagem modeladora </h3>
+
+
+                  <p>>sagem no abdômen, o ideal é não comer antes da sessão, pois os movimentos vigorosos podem provocar refluxo ou mesmo vômito durante a massagem. Alimentação leve com jejum de uma hora e meia é o suficiente.
                   </p>
 
                   <h3>Cuidados após massagem modeladora</h3>
@@ -195,32 +212,13 @@
 
             <!-- FOOTER -->
 
-            <div class="Footer" style="background-color: black; width: 100%;margin p: 50px 0 10px; padding:50px">
-              <div class="Footer-content">
-                <div class="Footer-links ">
-                  <div class="row">
+            <footer>
+              <p class="pull-right"><a href="#">Back to top</a></p>
+              <p class="pull-lef">© 2016 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+              <a href="https://www.facebook.com"><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+              <a href="https://www.twitter.com"><i class="fa fa-twitter-square fa-2x" aria-hidden="true"></i></a>
 
-                    <div class="col-xs-6 col-sm-4">
-                      <p class="pull-right">&copy; 2016 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-                    </div>
-
-                    <div class="clearfix visible-xs-block"></div>
-                    <div class="col-xs-4 col-sm-4">
-                      <p class="pull-right"><a href="index.html">Back to top</a></p>
-                    </div>
-
-                  </div>
-                </div>
-                <div class="col-xs-2 col-md-10">
-                  <p class="pull-right" style="position: absolute;top: 50%;left: 50%;transform: translate(-50%, -50%); font-size: 18px; padding-top:30px">
-                    <a href="https://www.facebook.com"><img class="Footer Footer-facebook-icon" src="http://img.freepik.com/icones-gratis/facebook-logo-botao_318-84980.jpg?size=20&ext=jpg" alt="Facebook"></a>
-                  </p>
-
-
-                </div>
-              </div>
-            </div>
-          </div>
+            </footer>
 
           <!-- Bootstrap core JavaScript
           ================================================== -->
